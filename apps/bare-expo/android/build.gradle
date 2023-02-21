@@ -30,6 +30,8 @@ buildscript {
         classpath 'com.google.gms:google-services:4.3.5'  // Google Services plugin
 
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlinVersion"
+
+        classpath("expo.modules.devlauncher:expo-dev-launcher-gradle-plugin")
     }
 }
 
