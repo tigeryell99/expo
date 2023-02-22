@@ -26,12 +26,12 @@ tasks.withType<KotlinCompile> {
   }
 }
 
-group = "expo.modules.devlauncher"
+group = "expo.modules"
 
 gradlePlugin {
   plugins {
     register("expoDevLauncherPlugin") {
-      id = "expo.modules.devlauncher"
+      id = "expo-dev-launcher-gradle-plugin"
       implementationClass = "expo.modules.devlauncher.DevLauncherPlugin"
     }
   }
